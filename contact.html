@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--Styling-->
+        <link rel="stylesheet" href="main.css">
+
+        <!--Scripts-->
+
+    </head>
+
+    <body>
+        <!--Navigation bar-->
+        <header>
+            <!--Title-->
+            <h2 class="logo">William Stobaugh</h2>
+            <!--Nav links-->
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="index.html">About</a></li>
+                    <li><a>Projects</a></li>
+                    <li><a>Services</a></li>
+                </ul>
+            </nav>
+            <!--Contact me-->
+            <a><button>Contact me</button></a>
+            
+        </header>
+
+        <!--Subheader content-->
+        <div id="content">
+                <!--Flex box, text on left and input on right-->
+            <div class="flex-block">
+                <div class="boxshadow">
+                    <h1 style="margin-bottom: 15px;">Let's get in touch </h1>
+                    <p>I would love to answer any questions or requests you may have!<br> Just fill out the form and I'll get back to you.</p>
+                </div>
+
+                    <form class="contact-block" action="https://formspree.io/f/xdoyvawo" method="POST">
+                        <label for="name">Name</label>
+                        <input name="name" id="name" placeholder="Enter first and last name">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Enter your email">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="50" rows="15" placeholder="Type something.."></textarea>
+                        <input type="submit" value="Submit" id="submit">
+                    </form>
+                
+            </div>
+        </div>
+
+        <footer>
+
+        </footer>
+        
+    </body>
+</html>
