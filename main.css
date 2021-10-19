@@ -79,18 +79,6 @@ textarea
 }
 
 
-button, #submit
-{
-    padding: 5px;
-    border-radius: 50px;
-    background-color: chocolate;
-    border: solid 1px chocolate;
-    color: black;
-    font-size: 1rem;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-}
-
 .highlight
 {
     padding: 5px;
@@ -102,18 +90,29 @@ button, #submit
 }
 
 
-button:hover, #submit:hover, .highlight
+button, #submit, .highlight
 {
+    padding: 5px;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-size: 1rem;
     background-color: rgb(43, 45, 54);
     color:white;
     border: solid 1px white;
 }
 
-button:active, #submit:active, .highlight:hover
+button:hover, #submit:hover, .highlight:hover
 {
     background-color: rgb(43, 45, 54);
     color:rgb(174, 219, 255);
     border: solid 1px rgb(174, 219, 255);
+    transform: scale(1.05);
+}
+
+#header-button:hover
+{
+    color:white;
 }
 
 #submit
@@ -357,7 +356,7 @@ footer
       box-shadow: 0px 0px 5px black;
   }
 
-  .light-hover-p
+  .light-hover-p, .pop
   {
     transition: all 0.3s ease 0s;
   }
@@ -370,4 +369,9 @@ footer
   .dark-b
   {
       background-color: rgb(26, 29, 36);
+  }
+
+  .blue-hover:hover
+  {
+    color: rgb(105, 119, 170);
   }
