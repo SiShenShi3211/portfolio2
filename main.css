@@ -375,3 +375,18 @@ footer
   {
     color: rgb(105, 119, 170);
   }
+
+  .square-flex
+  {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .square-flex
+  {
+      display: flex;
+      flex-wrap: wrap;
+      width: 250px;
+      height: 250px;
+      background-color: aqua;
+  }
