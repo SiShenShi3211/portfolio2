@@ -56,8 +56,62 @@
 
   .project_pic
   {
+    position: absolute;
     width: 150px;
-    height: 150px
+    height:  150px;
+  }
+
+  .project_pic p 
+  {
+      line-height: 150px;
+      font-size: 1rem;
+  }
+
+  .invisible-text:hover p
+  {
+      font-size: 4rem;
+      color: rgba(0,0,0,0);
+  }
+
+  .flex-block-header
+  {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .flex-block-header p, .flex-block-header h1, .flex-block-header h3
+  {
+      text-align: center;
+  }
+
+  #heading
+  {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-right: 0px;
+  }
+
+  .start-up
+  {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .stat
+  {
+      width: 60vw;
+  }
+
+  .contact-main-block
+  {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 150vh;
   }
 
 }
