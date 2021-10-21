@@ -207,6 +207,7 @@ button:hover, #submit:hover, .highlight:hover
 #content
 {
     margin: 5rem .5rem;
+    min-height: 70vh;
     
 }
 
@@ -502,4 +503,31 @@ footer
   {
     background-image: linear-gradient(0deg, rgba(0,0,0,.9), rgba(0,0,0,.5)), url("3dModelImg.jpg");
     background-size: cover; 
+  }
+
+  .project1
+  {
+    background-image: linear-gradient(0deg, rgba(0,0,0,.9), rgba(0,0,0,.5)), url("DataScienceImg.jpg");
+    background-size: cover; 
+    background-position:center;
+  }
+
+  a h1{
+      transition: all .3s ease 0s;
+  }
+
+  a h1:hover{
+    color:chocolate;
+  }
+
+  .slide 
+  {
+    text-align: center; 
+    line-height: 300px;
+  }
+
+  .project_pic
+  {
+    width: 400px;
+    height: 400px
   }

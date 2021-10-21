@@ -1,0 +1,63 @@
+@media screen and (max-width: 700px) { 
+
+    h1, h2, h3, h4
+    {
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav_links
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button
+    {
+        border-radius: 10px;
+    }
+
+    .slider
+    {
+        height: 300px;
+    }
+
+    .slide
+    {
+        max-height: 200px;
+        height: 200px;
+        min-width: 500px;
+    }
+
+    .slide h1
+  {
+    text-align: center; 
+    line-height: 200px;
+    font-size: 1.2rem;
+  }
+
+  .project
+  {
+      max-height: 200px;
+      height: 200px; 
+  }
+
+  .project .flex-block h1, .project .flex-block h3 
+  {
+     font-size: 80%;
+  }
+
+  .project .flex-block p
+  {
+     font-size: .6rem;
+     max-width: 70%;
+  }
+
+  .project_pic
+  {
+    width: 150px;
+    height: 150px
+  }
+
+}
