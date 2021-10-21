@@ -48,13 +48,13 @@
 
   .project .flex-block h1, .project .flex-block h3 
   {
-     font-size: 80%;
+     font-size: 1rem;
   }
 
   .project .flex-block p
   {
-     font-size: .6rem;
-     max-width: 70%;
+     font-size: .8rem;
+     max-width: 85%;
   }
 
   .project_pic
@@ -93,6 +93,7 @@
   {
       text-align: center;
   }
+
 
   #heading
   {
