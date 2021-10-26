@@ -141,5 +141,10 @@
     max-width: 90vw;
 }
 
+#header-button
+{
+    transform: scale(.8);
+    margin-bottom: 20px;
+}
 
 }
